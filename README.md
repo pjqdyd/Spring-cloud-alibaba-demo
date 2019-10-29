@@ -20,3 +20,13 @@
   ├─README.md                              README.md文件
   └─pom.xml                                父模块pom文件
  ```
+
+### 如何启动:
+
+1. 先使用[docker启动nacos](./nacos-docker.md)服务注册中心;
+
+2. 访问http://[docker主机ip]:8848/nacos, 登录nacos, 默认账户密码都是nacos;
+
+3. 启动各个服务, 注册到注册中心;
+
+
