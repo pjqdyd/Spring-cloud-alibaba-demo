@@ -13,8 +13,9 @@
 ### 项目结构:
 
 ```
-  ├─spring-cloud-alibaba-server-provider   服务提供者
-  ├─spring-cloud-alibaba-server-consumer   服务消费者
+  ├─spring-cloud-alibaba-server-provider   服务提供者模块
+  ├─spring-cloud-alibaba-server-consumer   服务消费者模块
+  ├─spring-cloud-alibaba-config-client     使用nacos外部配置模块
   ├─nacos-docker.md                        docker启动nacos
   ├─.gitignore                             .gitignore文件
   ├─README.md                              README.md文件
@@ -27,6 +28,6 @@
 
 2. 访问http://[docker主机ip]:8848/nacos, 登录nacos, 默认账户密码都是nacos;
 
-3. 启动各个服务, 注册到注册中心;
+3. 启动对应服务, 注册到注册中心;
 
 
