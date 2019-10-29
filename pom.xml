@@ -13,6 +13,7 @@
         <module>spring-cloud-alibaba-server-provider</module>
         <module>spring-cloud-alibaba-server-consumer</module>
         <module>spring-cloud-alibaba-config-client</module>
+        <module>spring-cloud-alibaba-sentinel-consumer</module>
     </modules>
 
     <properties>

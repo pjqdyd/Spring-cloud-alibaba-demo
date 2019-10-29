@@ -16,7 +16,9 @@
   ├─spring-cloud-alibaba-server-provider   服务提供者模块
   ├─spring-cloud-alibaba-server-consumer   服务消费者模块
   ├─spring-cloud-alibaba-config-client     使用nacos外部配置模块
+  ├─spring-cloud-alibaba-sentinel-consumer 使用sentinel的消费者模块
   ├─nacos-docker.md                        docker启动nacos
+  ├─sentinel-dashboard.md                  sentinel监控面板的使用
   ├─.gitignore                             .gitignore文件
   ├─README.md                              README.md文件
   └─pom.xml                                父模块pom文件
