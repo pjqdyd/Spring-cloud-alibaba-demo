@@ -3,7 +3,7 @@
 
 #### 1.启动sentinel-dashboard控制台
 
--访问[https://github.com/alibaba/Sentinel/releases]下载发布的jar包;
+-访问[https://github.com/alibaba/Sentinel/releases](https://github.com/alibaba/Sentinel/releases)下载发布的jar包;
 
 -目前下载的版本sentinel-dashboard-1.6.3.jar;
 
