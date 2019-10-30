@@ -1,0 +1,28 @@
+server:
+  port: 10000
+
+spring:
+  application:
+    name: spring-cloud-alibaba-dubbo-consumer
+  main:
+    allow-bean-definition-overriding: true
+
+dubbo:
+  scan:
+    base-packages: com.pjqdyd.controller
+  protocol:
+    name: dubbo
+    port: -1 #自动分配端口号
+  registry:
+    address: nacos://localhost:8848 #注册到nacos的地址
+
+#开启dubbo的端点健康检查
+endpoints:
+  dubbo:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
