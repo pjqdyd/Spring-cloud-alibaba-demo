@@ -7,6 +7,8 @@
 >spring-cloud  Greenwich.RELEASE
 >
 >spring-cloud-alibaba  2.1.0.RELEASE
+>
+>dubbo 2.7.3
 
 
 
@@ -17,6 +19,8 @@
   ├─spring-cloud-alibaba-server-consumer   服务消费者模块
   ├─spring-cloud-alibaba-config-client     使用nacos外部配置模块
   ├─spring-cloud-alibaba-sentinel-consumer 使用sentinel的消费者模块
+  ├─spring-cloud-alibaba-dubbo-provider    Dubbo提供的提供者者模块
+  ├─spring-cloud-alibaba-dubbo-consumer    Dubbo的消费者者模块
   ├─nacos-docker.md                        docker启动nacos
   ├─sentinel-dashboard.md                  sentinel监控面板的使用
   ├─.gitignore                             .gitignore文件
