@@ -13,6 +13,7 @@ dubbo:
   protocol:
     name: dubbo
     port: -1 #自动分配端口号
+    serialization: kryo #序列化方式
   registry:
     address: nacos://localhost:8848 #注册到nacos的地址
 
