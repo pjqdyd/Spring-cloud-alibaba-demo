@@ -12,10 +12,13 @@ dubbo:
     base-packages: com.pjqdyd.provider.service
   protocol:
     name: dubbo
-    port: -1 #自动分配端口号
+    port: 20880 # -1 自动分配端口号(可以自定义)
     serialization: kryo #序列化方式
   registry:
     address: nacos://localhost:8848 #注册到nacos的地址
+  provider:
+    #负载均衡,默认random随机, 可选roundrobin轮询, leastactive最小活跃数,
+    loadbalance: roundrobin
 
 #开启dubbo的端点健康检查
 endpoints:
